@@ -1,0 +1,51 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.posters{
+  margin-top: 5vh;
+  display: flex;
+}
+.img {
+  border: 1px solid black;
+  height: 35vh;
+  width: 25vh;
+  margin: 5vh;
+  background-size: contain;
+}
+
+form {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#userChoice {
+  width: 30vw;
+  height: 5vw;
+  border-radius: 2vw;
+  font-size: 2.5vw;
+  text-align: center;
+  font-variant: small-caps;
+}
+.submit {
+  display: none;
+}
+body {
+  background: linear-gradient(hsl(55, 60%, 70%), white);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+h3{
+  text-align: center;
+}
+textarea {
+  resize: none;
+}
+
+table {
+  display: none;
+}
